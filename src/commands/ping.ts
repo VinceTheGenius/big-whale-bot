@@ -12,7 +12,7 @@ module.exports = class PingCommand extends Command {
   }
 
   async execute(interaction) {
-    await interaction.reply({ content: "Pong" });
+    await interaction.reply({ content: "Pong !" });
   }
 };
 
